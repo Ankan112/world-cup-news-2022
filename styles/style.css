@@ -20,7 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #93681fad;
+    background-color: #50bdc6;
     padding: 40px 50px 0px 50px;
     margin-top: 50px;
     border-radius: 30px;
@@ -37,24 +37,26 @@ body {
 }
 
 .header-section-left p {
-    color: rgba(248, 239, 239, 0.842);
+    color: rgba(248, 239, 239, 0.938);
 }
 
 .btn {
     font-size: 1.1em;
     border: none;
-    background-color: blue;
+    background-color: rgba(0, 0, 0, 0.685);
     padding: 10px 15px;
     border-radius: 10px;
     color: #fff;
     cursor: pointer;
     margin-bottom: 30px;
+    font-weight: bold;
+    transition: 0.8s;
 }
 
 .btn:hover {
-    background-color: green;
-    color: white;
-    transition: 0.5s;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.685);
+
 }
 
 .btn i {
@@ -79,7 +81,7 @@ body {
 
 .left-sidebar {
     width: 20%;
-    background-color: aquamarine;
+    background-color: #1f2c3f;
     height: 230px;
     text-align: center;
     padding: 0 20px;
@@ -99,7 +101,8 @@ body {
 }
 
 #blog {
-    background-color: lightcoral;
+    background-color: #50bdc6;
+    color: #fff;
 }
 
 .cards {
@@ -142,8 +145,8 @@ body {
 .view-all-btn {
     padding: 10px 20px;
     font-size: 1.2em;
-    color: black;
-    background-color: lightblue;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.685);
     cursor: pointer;
     border-radius: 10px;
     border: none;
@@ -152,7 +155,8 @@ body {
 
 /* footer section style start  */
 footer {
-    background-color: gray;
+    background-color: #556784;
+    color: rgba(255, 255, 255, 0.89);
     text-align: center;
     padding: 60px 0 30px 0;
 }
@@ -160,6 +164,7 @@ footer {
 .policy {
     display: flex;
     justify-content: space-evenly;
+    cursor: pointer;
 }
 
 .social {
@@ -169,8 +174,8 @@ footer {
 }
 
 .social a {
-    color: black;
-
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.89);
 }
 
 .social i {
