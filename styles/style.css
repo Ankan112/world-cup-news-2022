@@ -86,6 +86,12 @@ body {
     border-radius: 10px;
 }
 
+.left-sidebar a {
+    text-decoration: none;
+    color: black;
+    width: 30%;
+}
+
 .left-sidebar h1 {
     background-color: #fff;
     padding: 10px 5px;
@@ -128,6 +134,23 @@ body {
     justify-content: space-around;
 }
 
+.view-button {
+    display: none;
+
+}
+
+.view-all-btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: black;
+    background-color: lightblue;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+/* footer section style start  */
 footer {
     background-color: gray;
     text-align: center;
@@ -155,15 +178,6 @@ footer {
     margin-top: 20px;
     font-size: 1.5em;
 }
-
-
-
-
-
-
-
-
-
 
 /* resonsive for mobile device  */
 @media screen and (max-width:576px) {
@@ -194,15 +208,15 @@ footer {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .view-button {
+        display: none;
+    }
+
     .policy {
         flex-direction: column;
         align-items: center;
     }
 
-    /* .social {
-        flex-direction: column;
-        align-items: center;
-    } */
 }
 
 /* responsive for tablet  */
@@ -226,7 +240,6 @@ footer {
     }
 
     .left-sidebar h1 {
-        width: 28%;
         font-size: 1em;
         display: flex;
         justify-content: center;
@@ -236,5 +249,10 @@ footer {
 
     .cards {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .view-button {
+        display: flex;
+        justify-content: center;
     }
 }
